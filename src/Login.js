@@ -26,7 +26,7 @@ const Login = ({history}) => {
                  {error&& <p>{error}</p>}
                 <div className="form-group">
                     <input type="email" name="email" required  onChange={(e)=> SetEmail(e.target.value)}/>
-                    <label htmlFor="email" >Email</label>
+                    <label htmlFor="email">Email</label>
                 </div>
                 <div className="form-group">
                     <input type="password" name="password" required onChange={(e)=> SetPassword(e.target.value)} />
